@@ -19,7 +19,6 @@ body {
     height: 100vh;
     color: rgb(250, 211, 161);
     text-shadow: 0 0 2px black;
-    backdrop-filter: blur(2px);
 }
 
 .mainNav {
