@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Prata&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Prata', Times, serif;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("./images/mainBack.png");   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    color: rgb(250, 211, 161);
+    text-shadow: 0 0 2px black;
+    backdrop-filter: blur(2px);
+}
+
+.mainNav {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainLogo {
+    display: flex;
+    align-items: center;
+}
+
+.mainLogo h1{
+    font-family: "Limelight", 'Times New Roman', Times, serif;
+    color: rgb(252, 192, 81);
+}
+
+.mainNav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.mainNav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.mainNav ul li button {
+    background: none;
+    font-weight: 300;
+    color: rgb(250, 211, 161);
+    border: 1px solid rgb(250, 211, 161);
+    border-radius: 8px;
+    padding: 12px;
+}   
+
+.mainNav ul li button:active {
+   text-shadow: 0 0 4px white;
+   box-shadow: 0 0 4px white;
+}
+
+.mainSection {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.678);
+    /* border-radius: 0 8px 8px 0; */
+    /* margin: 24px 24px 24px 0; */
+    /* border-radius: 8px; */
+    margin: 12px 24px;
+}   
