@@ -8,17 +8,14 @@
     box-sizing: border-box;
 }
 
-html {
-    background: url("./images/mainBack.png");   
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 body {
     height: 100vh;
     color: rgb(250, 211, 161);
     text-shadow: 0 0 2px black;
+    background: url("./images/mainBack.png");   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mainNav {
